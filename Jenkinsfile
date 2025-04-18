@@ -5,7 +5,7 @@ pipeline {
     agent any
 
     parameters {
-        string(name: 'BRANCH_NAME', defaultValue: 'dev', description: 'Git branch to build')
+        string(name: 'BRANCH_NAME', defaultValue: 'main', description: 'Git branch to build')
     }
 
     environment {
