@@ -9,7 +9,7 @@ pipeline {
     }
 
     environment {
-        REPO_URL = 'git@github.com:tranquangthuan1211/ci-cd.git'
+        REPO_URL = 'https://github.com/tranquangthuan1211/ci-cd.git'
         BRANCH_NAME = "${params.BRANCH_NAME}"
         IMAGE_NAME = 'ntquan87/ci-cd'
     }
